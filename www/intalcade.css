@@ -1,0 +1,102 @@
+.leaflet-popup-content-wrapper, .leaflet-popup-tip{
+  box-shadow: none !important;
+  color: none !important;
+  background: none !important;
+}
+
+.leaflet-popup-content {
+  margin: 0px !important;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.country-name-popup {
+  padding: 5px;
+  border-radius: 5px;
+    font-family: Courier New;
+}
+
+.homescreen-button {
+  font-size: 20px;
+  height: 50px !important;
+  border-color: black;
+  background-color: #FF0049;
+  font-weight: bold;
+  /*text-shadow: 1px 1px 0 #000;*/
+}
+
+.homescreen-messagebox {
+  background-color:#FFF7C2;
+  border:2px solid;
+  border-color:#FCEBB8;
+  width:80%;
+  border-radius: 5px;
+  box-shadow: 2px;
+}
+
+.homescreen-font {
+  font-family: Courier New;
+  font-size: 20px;
+  color: black;
+  text-shadow: 1px 1px 0 #000;
+}
+
+.guess-font {
+  font-family: Courier New;
+  font-size: 20px;
+  color: black;
+}
+
+.leaflet-container {
+  background: lightblue !important;
+}
+
+.back-arrow {
+  position: absolute;
+  left: 10px;
+  top : 10px;
+  z-index : 100;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+}
+
+.timer {
+  position: absolute;
+  right: 10px;
+  top : 10px;
+  z-index : 100;
+  background: transparent;
+  border: none;
+}
+
+.country-to-guess {
+  text-align: center;
+  position: absolute;
+  bottom: 20px;
+  z-index : 100;
+  padding: 6px 10px;
+  border-radius: 5px;
+  box-shadow: 2px;
+  border:2px solid;
+  border-color:black;
+  background:#F0F0F0;
+}
+
+.modal-content {
+  box-shadow: none !important;
+  background: transparent !important;
+  border: none !important;
+}
+
+.leaflet {
+  font: Courier New !important;
+}
+
+#leaderboardGameSelect {
+  font-family: Courier New;
+  font-size: 20px;
+  color: black;
+  text-shadow: 1px 1px 0 #000;
+  height: 45px;          /* Increases height of the dropdown */
+}
